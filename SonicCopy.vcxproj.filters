@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="헤더 파일">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="01. Headers">
+      <UniqueIdentifier>{eb69ab53-f42e-477c-935b-0e78f6697949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="02. Managers">
+      <UniqueIdentifier>{f2b13a88-9242-4681-9cb7-55f18a70589c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="03. Scene">
+      <UniqueIdentifier>{6e74981f-6349-485b-9e50-b53c34b2aa5a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="99. Utilities">
+      <UniqueIdentifier>{db7a1456-2d7c-4de1-b2cf-db5d898ab591}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="999. Legacy">
+      <UniqueIdentifier>{eb408cdf-9b12-4d2f-8b74-fd94f16ce6e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj">
+      <UniqueIdentifier>{e1b1ae2e-ca8b-49c7-bdc2-842193413b0c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj\01. MovableObj">
+      <UniqueIdentifier>{e6bdc320-aee6-49d3-9bef-52b1d5798b00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj\01. MovableObj\01. Player">
+      <UniqueIdentifier>{f45cdffe-d14a-44aa-8b10-c7e149a2d463}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Environment">
+      <UniqueIdentifier>{dfacc25d-4f33-4074-8ced-de358cd9250c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Environment\Line">
+      <UniqueIdentifier>{e1df0fd5-b8cd-48b7-a87f-4965d5058a06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Environment\Tile">
+      <UniqueIdentifier>{6863420b-c734-4cd2-9a4f-45528cf37233}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="FMOD">
+      <UniqueIdentifier>{deff9ce7-1cff-42ac-b8bd-041730eb0d2f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="04. Obj\02. UnmovableObj">
+      <UniqueIdentifier>{624df32a-e716-494c-ac51-70ef5dce9395}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="05. Environment\Editor">
+      <UniqueIdentifier>{05ac8dbd-8930-4eee-9aae-d03ec560a874}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Image, Animation">
+      <UniqueIdentifier>{88a6b502-94b4-45b1-82c8-c8fbfec54c9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="06. Inventory">
+      <UniqueIdentifier>{80eb9c71-ed4a-43d0-964c-9f11ed2e0632}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="framework.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="SonicCopy.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Define.h">
+      <Filter>01. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="Include.h">
+      <Filter>01. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MAIN.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TestScene.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneBase.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Enum.h">
+      <Filter>01. Headers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath.h">
+      <Filter>99. Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugLog.h">
+      <Filter>99. Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="MyMath_Old.h">
+      <Filter>999. Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="MyString.h">
+      <Filter>99. Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>04. Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="MovableObject.h">
+      <Filter>04. Obj\01. MovableObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>04. Obj\01. MovableObj\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Factory.h">
+      <Filter>99. Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="Functor.h">
+      <Filter>99. Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LineManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="CurvedLine.h">
+      <Filter>05. Environment\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="LineObjBase.h">
+      <Filter>05. Environment\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="EditorScene.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="CircleLine.h">
+      <Filter>05. Environment\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="BmpManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="UIManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="TileManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimationManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="MyTile.h">
+      <Filter>05. Environment\Tile</Filter>
+    </ClInclude>
+    <ClInclude Include="ConnectedLine.h">
+      <Filter>05. Environment\Line</Filter>
+    </ClInclude>
+    <ClInclude Include="MechaSonic.h">
+      <Filter>04. Obj\01. MovableObj</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerBase.h">
+      <Filter>04. Obj\01. MovableObj\01. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod.hpp">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_codec.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_dsp.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_errors.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_memoryinfo.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="fmod_output.h">
+      <Filter>FMOD</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="GameStateManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>02. Managers</Filter>
+    </ClInclude>
+    <ClInclude Include="BossScene.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearScene.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Wall.h">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Ring.h">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Spike.h">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Spring.h">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClInclude>
+    <ClInclude Include="DiagonalSpring.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Collider.h">
+      <Filter>999. Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="ClearObject.h">
+      <Filter>999. Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="QuarterCurveLine.h">
+      <Filter>999. Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="DeathEffectObj.h">
+      <Filter>999. Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="LineEditor.h">
+      <Filter>05. Environment\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="TileEditor.h">
+      <Filter>05. Environment\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjEditor.h">
+      <Filter>05. Environment\Editor</Filter>
+    </ClInclude>
+    <ClInclude Include="IntroScene.h">
+      <Filter>03. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="MyAnimation.h">
+      <Filter>Image, Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="MyBmp.h">
+      <Filter>Image, Animation</Filter>
+    </ClInclude>
+    <ClInclude Include="SignObj.h">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClInclude>
+    <ClInclude Include="LineVeritcal.h">
+      <Filter>999. Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemObj.h">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>999. Legacy</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInventory.h">
+      <Filter>06. Inventory</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SonicCopy.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="MAIN.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="TestScene.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneBase.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMath.cpp">
+      <Filter>99. Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="MyMath_Old.cpp">
+      <Filter>999. Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="MyString.cpp">
+      <Filter>99. Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>04. Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="MovableObject.cpp">
+      <Filter>04. Obj\01. MovableObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>04. Obj\01. MovableObj\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="DebugManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="LineManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CurvedLine.cpp">
+      <Filter>05. Environment\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="LineObjBase.cpp">
+      <Filter>05. Environment\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="EditorScene.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="CircleLine.cpp">
+      <Filter>05. Environment\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="BmpManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="UIManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimationManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="TileManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="MyTile.cpp">
+      <Filter>05. Environment\Tile</Filter>
+    </ClCompile>
+    <ClCompile Include="ConnectedLine.cpp">
+      <Filter>05. Environment\Line</Filter>
+    </ClCompile>
+    <ClCompile Include="MechaSonic.cpp">
+      <Filter>04. Obj\01. MovableObj</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerBase.cpp">
+      <Filter>04. Obj\01. MovableObj\01. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="GameStateManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>02. Managers</Filter>
+    </ClCompile>
+    <ClCompile Include="BossScene.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearScene.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Ring.cpp">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Spike.cpp">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Spring.cpp">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Wall.cpp">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClCompile>
+    <ClCompile Include="DiagonalSpring.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="ClearObject.cpp">
+      <Filter>999. Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="Collider.cpp">
+      <Filter>999. Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="QuarterCurveLine.cpp">
+      <Filter>999. Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="DeathEffectObj.cpp">
+      <Filter>999. Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="LineEditor.cpp">
+      <Filter>05. Environment\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="TileEditor.cpp">
+      <Filter>05. Environment\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjEditor.cpp">
+      <Filter>05. Environment\Editor</Filter>
+    </ClCompile>
+    <ClCompile Include="IntroScene.cpp">
+      <Filter>03. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="MyAnimation.cpp">
+      <Filter>Image, Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="MyBmp.cpp">
+      <Filter>Image, Animation</Filter>
+    </ClCompile>
+    <ClCompile Include="SignObj.cpp">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClCompile>
+    <ClCompile Include="LineVeritcal.cpp">
+      <Filter>999. Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemObj.cpp">
+      <Filter>04. Obj\02. UnmovableObj</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>999. Legacy</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInventory.cpp">
+      <Filter>06. Inventory</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="SonicCopy.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="SonicCopy.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="fmodex.dll">
+      <Filter>FMOD</Filter>
+    </None>
+    <None Include="fmodexL.dll">
+      <Filter>FMOD</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="fmodex_vc.lib">
+      <Filter>FMOD</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
